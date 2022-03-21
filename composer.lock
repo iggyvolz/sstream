@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9da08b378ab76239c37c1d00556a11c7",
+    "packages": [
+        {
+            "name": "lisachenko/z-engine",
+            "version": "dev-generate-includes",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iggyvolz/z-engine",
+                "reference": "cfbbb097e1789279577591c24ea210d888ceb38c"
+            },
+            "require": {
+                "ext-ffi": "*",
+                "php": "7.4.* || 8.0.* || 8.1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.15 || ^9.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZEngine\\": "src/"
+                },
+                "files": [
+                    "include/constants.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "ZEngine\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Lisachenko",
+                    "email": "lisachenko.it@gmail.com"
+                }
+            ],
+            "description": "Library that provides direct access to native PHP structures",
+            "time": "2022-03-21T20:23:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lisachenko/z-engine": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "8.1.*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

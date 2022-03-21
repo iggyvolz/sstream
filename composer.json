@@ -1,0 +1,19 @@
+{
+  "name": "iggyvolz/sstream",
+  "description": "Implementation of https://externals.io/message/117391",
+  "require": {
+    "php": "8.1.*",
+    "lisachenko/z-engine": "dev-generate-includes"
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/iggyvolz/z-engine",
+      "type": "git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\sstream\\": "src/"
+    }
+  }
+}
